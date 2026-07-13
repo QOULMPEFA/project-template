@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # TODO: Add your lint step here
+      # Example (Python):
+      # - name: Set up Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.x"
+      # - name: Lint
+      #   run: |
+      #     pip install ruff
+      #     ruff check .
+
+      # Example (Node.js):
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: "lts/*"
+      # - name: Lint
+      #   run: |
+      #     npm ci
+      #     npm run lint
+
+      - name: Template placeholder
+        run: echo "Add your lint/test steps above"

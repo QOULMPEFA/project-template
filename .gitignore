@@ -1,0 +1,47 @@
+# ── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment ─────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Dependencies ────────────────────────────────────────
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.class
+*.jar
+
+# ── Build & Dist ────────────────────────────────────────
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# ── Logs ────────────────────────────────────────────────
+*.log
+log/*.log
+
+# ── Temp & Cache ────────────────────────────────────────
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+temp/
